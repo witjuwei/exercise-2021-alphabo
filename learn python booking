@@ -1,6 +1,5 @@
 import pandas as pd
-df = pd.DataFrame(data={'height':[178,171,185,196],'weight':[156,90,140,142],
-						'name':['小王','小明','小绿','小红']})
+df = pd.DataFrame(data={'height':[178,171,185,196],'weight':[156,90,140,142],'name':['小王','小明','小绿','小红']})						
 print(df)
 df1=df.set_index('name',drop=False)
 print(df1)
